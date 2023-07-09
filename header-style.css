@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+
+
+body {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   width: 1728px;
+   height: 1980px;
+}
+
+/* Helper classes */
+
+.font-36 {
+   font-family: 'Saira';
+   font-size: 36px;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.font-32 {
+   font-family: 'Saira';
+   font-size: 32px;
+   font-weight: 700;
+   line-height: normal;
+}
+
+/* ------------------- */
+
+
+.container__header {
+   width: 100%;
+   height: 112px;
+   background: #000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 64px;
+}
+
+svg.logo__svg path {
+   fill: #FFC0CB;
+}
+
+.main__nav {
+   display: flex;
+   width: 853px;
+   
+
+}
+
+.main-nav__list {
+   display:flex; 
+   width: inherit;
+   padding: 0;
+   list-style-type: none;
+   justify-content: space-between;
+}
+
+.main-nav__links {
+   text-decoration: none;
+   color: white;
+
+}
+
+.main-nav__items {
+   transition: transform 0.5s;
+}
+
+.main-nav__button {
+   width: 246px;
+   height: 64px;
+   border: none;
+   border-radius: 20px;
+   background: #FFC0CB;
+   color: white;
+   cursor: pointer;
+}
+
+.main-nav__items:hover {
+   transform: scale(1.2);
+}
+
+.main-nav__links:hover {
+   color: #FFC0CB;
+}
+
+.main-nav__button:hover {
+   background-color: white;
+   color: #FFC0CB;
+}
