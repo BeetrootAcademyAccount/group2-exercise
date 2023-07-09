@@ -6,16 +6,6 @@ Create website using the following design:
 
 https://www.figma.com/file/Nu5mQ3FAQ8woaQdtPlX25F/Groups?node-id=0%3A1&mode=dev
 
-Bear svg:
+- HTML and CSS files for the header of 'menu' & 'aplication' pages
 
-https://freesvg.org/bear-8
-
-Used icons:
-phone
-paw
-facebook
-linkedin
-instagram
-
-Icons sizing:
-https://fontawesome.com/docs/web/style/size
+Added a hover effect to the navigation bar to make it more interesting
