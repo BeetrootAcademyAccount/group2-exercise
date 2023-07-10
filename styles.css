@@ -1,6 +1,6 @@
 .black-header {
   width: 1728px;
-  height: 739px;
+
   flex-shrink: 0;
   background: #000;
 }
@@ -68,6 +68,7 @@
   padding-right: 4px;
   padding-top: 5px;
   font-size: 32px;
+  font-weight: 400;
   flex-direction: column;
   flex-shrink: 0;
   color: #fff;
