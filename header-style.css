@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
 
-
-body {
+* {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+}
+body {
    width: 1728px;
    height: 1980px;
 }
