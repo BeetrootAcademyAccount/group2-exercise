@@ -33,3 +33,15 @@ h1 {
 }
 
 /* Home Page Header properties END */
+
+/* Application Page Form properties START */
+
+.form {
+    width: 1120px;
+    height: 1012px;
+    margin-top: 82px;
+    padding: 39px 93px 40px;
+    background-color: #FFC0CB;
+    border: 1px solid #EDDEDE;
+    border-radius: 12px;
+}
