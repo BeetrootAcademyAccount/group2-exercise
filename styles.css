@@ -1,0 +1,75 @@
+.black-header {
+  width: 1728px;
+  height: 739px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+.main-nav {
+  padding-top: 0px;
+}
+
+.main-nav__list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+  justify-content: space-between;
+  text-align: center;
+  row-gap: 64px;
+  padding-top: 20px;
+  padding-left: 820px;
+  padding-right: 60px;
+  color: #fff;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Saira", sans-serif;
+}
+
+.about-us {
+  display: flex;
+  width: 154px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font: inherit;
+}
+
+.menu {
+  display: flex;
+  width: 95px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font: inherit;
+}
+
+.careers {
+  display: flex;
+  width: 139px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.btn-order {
+  width: 264px;
+  height: 64px;
+  margin-bottom: 655px;
+  border-radius: 20px;
+  background: #ffc0cb;
+}
+
+.btn-order-typography {
+  display: flex;
+  /* width: 235px;
+  height: 36px; */
+  padding-left: 33px;
+  padding-bottom: 23px;
+  padding-right: 4px;
+  padding-top: 5px;
+  font-size: 32px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: inherit;
+}
