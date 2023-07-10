@@ -1,35 +1,109 @@
 body {
-    margin: 0;
-    width: 1728px;
-    height: 1980px;
+  margin: 0;
+  width: 1728px;
+  height: 1980px;
 }
 
 h1 {
-    font-family: "Sigmar One";
-    font-size: 64px;
-    color: #FFC0CB;
+  font-family: "Sigmar One";
+  font-size: 64px;
+  color: #ffc0cb;
 }
 
 /* Home Page Header properties START */
 
 .header__homepage {
-    height: 739px;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
+  height: 739px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
 }
 
 .header__title {
-    width: 573px;
-    height: 333px;
-    text-align: center;
-    margin-top: 226px;
+  width: 573px;
+  height: 333px;
+  text-align: center;
+  margin-top: 226px;
 }
 
 .header__pink-bear {
-    width: 524px;
-    height: 295px;
-    margin-top: 185px;
+  width: 524px;
+  height: 295px;
+  margin-top: 185px;
+}
+.black-header {
+  width: 1728px;
+
+  flex-shrink: 0;
+  background: #000;
 }
 
-/* Home Page Header properties END */
+.main-nav {
+  padding-top: 0px;
+}
+
+.main-nav__list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+  justify-content: space-between;
+  text-align: center;
+  row-gap: 64px;
+  padding-top: 20px;
+  padding-left: 820px;
+  padding-right: 60px;
+  color: #fff;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Saira", sans-serif;
+}
+
+.about-us {
+  display: flex;
+  width: 154px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font: inherit;
+}
+
+.menu {
+  display: flex;
+  width: 95px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font: inherit;
+}
+
+.careers {
+  display: flex;
+  width: 139px;
+  height: 46px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.btn-order {
+  width: 264px;
+  height: 64px;
+  margin-bottom: 655px;
+  border-radius: 20px;
+  background: #ffc0cb;
+}
+
+.btn-order-typography {
+  display: flex;
+  /* width: 235px;
+  height: 36px; */
+  padding-left: 33px;
+  padding-bottom: 23px;
+  padding-right: 4px;
+  padding-top: 5px;
+  font-size: 32px;
+  font-weight: 400;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: inherit;
+}
