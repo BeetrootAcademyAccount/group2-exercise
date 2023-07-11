@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 * {
    box-sizing: border-box;
@@ -91,3 +92,120 @@ svg.logo__svg path {
    background-color: white;
    color: #FFC0CB;
 }
+
+
+/* main section page 2------------- */
+
+.main__container {
+   width: 1072px;
+   height: 2027px;
+   position: relative;
+   display: flex;
+   margin: auto;
+   top: 86px;
+}
+
+.container__menu {
+   width: 1072px;
+   height: 2027px;
+   position: relative;
+   border-radius: 20px;
+   border: 12px solid #FFC0CB;
+   background: #000;
+   display: grid;
+   gap: 64px; 
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(6, 1fr);
+   padding: 25px 52px 52px 52px; 
+}
+
+.box__img {
+   border: 12px solid #FFC0CB;
+   border-radius: 20px;
+   width: 440px;
+   height: 300px;
+}
+
+.container__display {
+   display: flex;
+   align-items: end;
+
+}
+
+.box__title {
+   grid-column: 1 / 3;
+}
+
+.menu__title {
+   color: #FFC0CB;
+   font-family: Italianno;
+   font-size: 128px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 480px;
+   height: 100px;
+   text-transform: capitalize;
+}
+
+.box__img-main {
+   width: 440px;
+   height: 1028px;
+   border: 12px solid #FFC0CB;
+   border-radius: 20px;
+   grid-row: 3 / 6;
+   
+}
+
+.box__img-desserts {
+   width: 944px;
+   height: 300px;
+   border: 12px solid #FFC0CB;
+   border-radius: 20px;
+   grid-column: 1 / 3;
+
+}
+
+.img__non-alcohol {
+   background: url(./assets/img/nonAlcoholicBeveragesIntro.jpg), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+
+.img__alcohol {
+   background: url(./assets/img/alchohol.png), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+.img__main {
+   background: url(./assets/img/main.jpg), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+.img__appetizers {
+   background: url(./assets/img/Appetizer.jpg), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+.img__salads {
+   background: url(./assets/img/Salads.PNG), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+.img__sauces {
+   background: url(./assets/img/sauses.jpeg), lightgray 50% / cover no-repeat; 
+   background-size:cover;
+   
+}
+.img__desserts {
+   background: url(./assets/img/deserts.jpg), lightgray 50% / cover no-repeat; 
+   background-size: cover;
+}
+
+.box__name {
+   color: white;
+   font-family: 'Calibri';
+   text-transform: capitalize;
+   font-size: 64px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: normal;
+   height: 78px;
+   margin-left: 22px;
+}
+
