@@ -6,41 +6,9 @@
 }
 
 body {
-   margin: 0;
    width: 1728px;
    height: 1980px;
 }
-
-h1 {
-    font-family: "Sigmar One";
-    font-size: 64px;
-    color: #FFC0CB;
-}
-
-/* Home Page Header properties START */
-
-.header__homepage {
-    height: 739px;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-}
-
-.header__title {
-    width: 573px;
-    height: 333px;
-    text-align: center;
-    margin-top: 226px;
-}
-
-.header__pink-bear {
-    width: 524px;
-    height: 295px;
-    margin-top: 185px;
-}
-
-/* Home Page Header properties END */
-
 
 /* Helper classes */
 
@@ -60,12 +28,13 @@ h1 {
 
 /* ------------------- */
 
-/* Home Page Main properties START  */
 
 main {
    width: 1120px;
    height: 1180px;
    margin: auto;
+   position: relative;
+   top: 706px;
    background: #D9D9D9;
    display: flex;
    justify-content: space-around;
@@ -143,7 +112,3 @@ main {
 }
 
 /* -----end of section 2----- */
-
-/* Home Page Main properties End  */
-
-
