@@ -6,10 +6,10 @@
    padding: 0;
 }
 body {
+   margin: 0;
    width: 1728px;
-   height: 1980px;
+   height: 1474px
 }
-
 /* Helper classes */
 
 .font-36 {
@@ -89,4 +89,135 @@ svg.logo__svg path {
 .main-nav__button:hover {
    background-color: white;
    color: #FFC0CB;
+}
+
+body {
+   margin: 0;
+   width: 1728px;
+   height: 1474px
+}
+
+label {
+   display: block;
+   font-size: 36px;
+   font-family: Arial;
+   margin-bottom: 3px;
+}
+
+input {
+   font-size: 36px;
+}
+
+.form {
+   display: flex;
+   justify-content: center;
+   margin-top: 82px;
+}
+
+.form__bgrnd {
+   width: 1120px;
+   height: 1012px;
+   background-color: #FFC0CB;
+   border: 1px solid #EDDEDE;
+   border-radius: 12px;
+}
+
+.form__header {
+   margin-top: 39px;
+   margin-left: 93px;
+   margin-right: 530px;
+}
+
+.header__title {
+   margin: 0;
+   font-family: Arial;
+   font-size: 40px;
+}
+
+.form__container {
+   margin: 49px 95px 40px;
+}
+
+.container__inputs {
+   gap: 18px;
+   margin-bottom: 35px;
+}
+
+.file__title {
+   font-size: 36px;
+}
+
+.file__upload-btn input {
+   display: none;
+}
+
+.file__upload-btn {
+   width: 248px;
+   height: 60px;
+   background-color: #DCD3D3;
+   border: 0.5px solid #000;
+   box-sizing: border-box;
+   padding-top: 6px;
+   text-align: center;
+   font-family: Arial;
+}
+
+.file__status {
+   box-sizing: border-box;
+   height: 57px;
+   width: 242px;
+   background: #FFF;
+   border: 1px solid #D2D2D2;
+   border-radius: 3px;
+   text-align: center;
+   padding-top: 8px;
+   font-size: 28px;
+   font-family: Arial;
+   color: #787676;
+}
+
+.container__submit {
+   display: flex;
+   justify-content: center;
+   margin-top: 51px;
+}
+
+.submit__btn {
+   width: 548px;
+   height: 58px;
+   border: none;
+   border-radius: 3px;
+   background: #1B52DF;
+   font-size: 36px;
+   color: #FFFEFE;
+}
+
+/* Helper Classes */
+
+.form__field-small {
+   box-sizing: border-box;
+   font-size: 36px;
+   background: #FFF;
+   width: 456px;
+   height: 64px;
+   padding-left: 26px;
+   border: 1px solid #D2D2D2;
+   border-radius: 3px;
+}
+
+.form__field-big {
+   background: #FFF;
+   width: 926px;
+   height: 222px;
+   margin-bottom: 61px;
+   border: 1px solid #D2D2D2;
+   border-radius: 3px;
+}
+
+.font-36 {
+   font-size: 36px;
+}
+
+.d-flex {
+   display: flex;
 }

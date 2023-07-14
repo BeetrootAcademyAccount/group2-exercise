@@ -42,5 +42,82 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="form">
+        <section class="form__bgrnd">
+          <section class="form__header">
+            <h1 class="header__title">Job application</h1>
+          </section>
+          <section>
+            <form action="" method="post" class="form__container">
+              <section class="container__inputs d-flex">
+                <div>
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    name="fname"
+                    id="fname"
+                    class="form__field-small"
+                  />
+                </div>
+                <div>
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    name="lname"
+                    id="lname"
+                    class="form__field-small"
+                  />
+                </div>
+              </section>
+              <section class="container__inputs d-flex">
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form__field-small"
+                  />
+                </div>
+                <div>
+                  <label for="jobs">Job Role</label>
+                  <select name="jobs" id="jobs" class="form__field-small">
+                    <option value="waiter">Waiter</option>
+                    <option value="chef">Chef</option>
+                    <option value="manager">Manager</option>
+                  </select>
+                </div>
+              </section>
+              <section>
+                <label for="address">Enter Adress</label>
+                <input
+                  type="text"
+                  name="address"
+                  id="address"
+                  class="form__field-big"
+                />
+
+                <span class="file__title">Upload Your CV</span>
+                <section class="d-flex">
+                  <div class="file__upload">
+                    <label for="file" class="file__upload-btn"
+                      >Choose File
+                      <input type="file" name="file" id="file" />
+                    </label>
+                  </div>
+                  <div class="file__status">
+                    <span>No file chosen</span>
+                  </div>
+                </section>
+              </section>
+              <div class="container__submit">
+                <button type="submit" class="submit__btn">Apply Now</button>
+              </div>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
