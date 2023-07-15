@@ -1,211 +1,240 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-   width: 1728px;
-   height: 1980px;
+  width: 1728px;
+  height: 1980px;
 }
 
 /* Helper classes */
 
 .font-36 {
-   font-family: 'Saira';
-   font-size: 36px;
-   font-weight: 700;
-   line-height: normal;
+  font-family: "Saira";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .font-32 {
-   font-family: 'Saira';
-   font-size: 32px;
-   font-weight: 700;
-   line-height: normal;
+  font-family: "Saira";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* ------------------- */
 
-
 .container__header {
-   width: 1728px;
-   height: 112px;
-   background: #000;
-   display: flex;
-   position: relative;
-   align-items: center;
-   justify-content: space-between;
-   padding: 0 64px;
+  width: 1728px;
+  height: 112px;
+  background: #000;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
 }
 
 svg.logo__svg path {
-   fill: #FFC0CB;
+  fill: #ffc0cb;
 }
 
 .main__nav {
-   display: flex;
-   width: 853px;
-   
-
+  display: flex;
+  width: 853px;
 }
 
 .main-nav__list {
-   display:flex; 
-   width: inherit;
-   padding: 0;
-   list-style-type: none;
-   justify-content: space-between;
+  display: flex;
+  width: inherit;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
 .main-nav__links {
-   text-decoration: none;
-   color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
 .main-nav__items {
-   transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .main-nav__button {
-   width: 246px;
-   height: 64px;
-   border: none;
-   border-radius: 20px;
-   background: #FFC0CB;
-   color: white;
-   cursor: pointer;
+  width: 246px;
+  height: 64px;
+  border: none;
+  border-radius: 20px;
+  background: #ffc0cb;
+  color: white;
+  cursor: pointer;
 }
 
 .main-nav__items:hover {
-   transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .main-nav__links:hover {
-   color: #FFC0CB;
+  color: #ffc0cb;
 }
 
 .main-nav__button:hover {
-   background-color: white;
-   color: #FFC0CB;
+  background-color: white;
+  color: #ffc0cb;
 }
-
 
 /* main section page 2------------- */
 
 .main__container {
-   width: 1072px;
-   height: 2027px;
-   position: relative;
-   display: flex;
-   margin: auto;
-   top: 86px;
+  width: 1072px;
+  height: 2027px;
+  position: relative;
+  display: flex;
+  margin: auto;
+  top: 86px;
 }
 
 .container__menu {
-   width: 1072px;
-   height: 2027px;
-   position: relative;
-   border-radius: 20px;
-   border: 12px solid #FFC0CB;
-   background: #000;
-   display: grid;
-   gap: 64px; 
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(6, 1fr);
-   padding: 25px 52px 52px 52px; 
+  width: 1072px;
+  height: 2027px;
+  position: relative;
+  border-radius: 20px;
+  border: 12px solid #ffc0cb;
+  background: #000;
+  display: grid;
+  gap: 64px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  padding: 25px 52px 52px 52px;
 }
 
 .box__img {
-   border: 12px solid #FFC0CB;
-   border-radius: 20px;
-   width: 440px;
-   height: 300px;
+  border: 12px solid #ffc0cb;
+  border-radius: 20px;
+  width: 440px;
+  height: 300px;
 }
 
 .container__display {
-   display: flex;
-   align-items: end;
-
+  display: flex;
+  align-items: end;
 }
 
 .box__title {
-   grid-column: 1 / 3;
+  grid-column: 1 / 3;
 }
 
 .menu__title {
-   color: #FFC0CB;
-   font-family: Italianno;
-   font-size: 128px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-   width: 480px;
-   height: 100px;
-   text-transform: capitalize;
+  color: #ffc0cb;
+  font-family: Italianno;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 480px;
+  height: 100px;
+  text-transform: capitalize;
 }
 
 .box__img-main {
-   width: 440px;
-   height: 1028px;
-   border: 12px solid #FFC0CB;
-   border-radius: 20px;
-   grid-row: 3 / 6;
-   
+  width: 440px;
+  height: 1028px;
+  border: 12px solid #ffc0cb;
+  border-radius: 20px;
+  grid-row: 3 / 6;
 }
 
 .box__img-desserts {
-   width: 944px;
-   height: 300px;
-   border: 12px solid #FFC0CB;
-   border-radius: 20px;
-   grid-column: 1 / 3;
-
+  width: 944px;
+  height: 300px;
+  border: 12px solid #ffc0cb;
+  border-radius: 20px;
+  grid-column: 1 / 3;
 }
 
 .img__non-alcohol {
-   background: url(../img/nonAlcoholicBeveragesIntro.jpg), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/nonAlcoholicBeveragesIntro.jpg),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 
 .img__alcohol {
-   background: url(../img/alchohol.png), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/alchohol.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 .img__main {
-   background: url(../img/main.jpg), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/main.jpg), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 .img__appetizers {
-   background: url(../img/Appetizer.jpg), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/Appetizer.jpg), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 .img__salads {
-   background: url(../img/Salads.PNG), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/Salads.PNG), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 .img__sauces {
-   background: url(../img/sauses.jpeg), lightgray 50% / cover no-repeat; 
-   background-size:cover;
-   
+  background: url(../img/sauses.jpeg), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 .img__desserts {
-   background: url(../img/deserts.jpg), lightgray 50% / cover no-repeat; 
-   background-size: cover;
+  background: url(../img/deserts.jpg), lightgray 50% / cover no-repeat;
+  background-size: cover;
 }
 
 .box__name {
-   color: white;
-   font-family: 'Calibri';
-   text-transform: capitalize;
-   font-size: 64px;
-   font-style: italic;
-   font-weight: 400;
-   line-height: normal;
-   height: 78px;
-   margin-left: 22px;
+  color: white;
+  font-family: "Calibri";
+  text-transform: capitalize;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  height: 78px;
+  margin-left: 22px;
+}
+
+/* START OF FOOTER */
+
+.footer__container {
+  position: relative;
+  width: 1728px;
+  height: 94px;
+  padding-top: 10px;
+  margin-top: 174px;
+  background: #000000;
+}
+
+.copyright__text {
+  display: inline-flex;
+  position: absolute;
+  font-size: 32px;
+  font-style: normal;
+  font-family: Calibri, sans-serif;
+  color: #fff;
+  line-height: normal;
+  margin-top: 23px;
+  margin-bottom: 21px;
+  margin-left: 44px;
+}
+
+.icon__position {
+  padding-left: 1500px;
+  padding-right: 26px;
+  padding-top: 23px;
+}
+.linkedIn__icon {
+  padding-right: 26px;
+  padding-top: 23px;
+}
+.instagram__icon {
+  padding-right: 23px;
+  padding-top: 23px;
 }
