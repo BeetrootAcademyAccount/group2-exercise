@@ -11,6 +11,12 @@ body {
   height: 1980px;
 }
 
+a {
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+
 /* Helper classes */
 
 .font-36 {
