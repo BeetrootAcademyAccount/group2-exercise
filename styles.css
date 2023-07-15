@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
-  margin: o;
   padding: 0;
 }
 
@@ -29,31 +28,41 @@ h1 {
 
 /* Navbar Homepage start */
 
-.container_navbar {
-  width: 1728px;
+.container__navbar {
+  display: inline-flex;
   position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
-  margin-right: 64px;
+  padding-left: 820px;
+  margin-right: 60px;
   color: #fff;
 }
 
 .header__navbar {
   display: flex;
-  gap: 64px;
-  margin-right: 64px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 60px;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+
   list-style: none;
 }
 
 .navbar__btn {
   width: 264px;
   height: 64px;
+  justify-content: flex-end;
+
+  margin-top: 40px;
+  margin-left: 30px;
   border-radius: 20px;
   background: #ffc0cb;
   color: #fff;
   border: none;
 }
+
+/* Navbar Homepage end */
+
 /* Home Page Header properties START */
 
 .header__homepage {
@@ -175,3 +184,41 @@ main {
 }
 
 /* -----end of section 2----- */
+
+/* START OF FOOTER */
+.footer__container {
+  position: relative;
+  width: 1728px;
+  height: 94px;
+  padding-top: 10px;
+
+  background: #000000;
+}
+
+.copyright__text {
+  display: inline-flex;
+  position: absolute;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "Calibri", sans-serif;
+  color: #fff;
+  line-height: normal;
+  margin-top: 23px;
+  margin-bottom: 21px;
+  margin-left: 44px;
+}
+
+.icon__position {
+  padding-left: 1500px;
+  padding-right: 26px;
+  padding-top: 23px;
+}
+.linkedIn__icon {
+  padding-right: 26px;
+  padding-top: 23px;
+}
+.instagram__icon {
+  padding-right: 23px;
+  padding-top: 23px;
+}
+/* END OF FOOTER */
