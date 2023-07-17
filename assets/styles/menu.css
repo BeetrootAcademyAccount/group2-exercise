@@ -216,7 +216,7 @@ svg.logo__svg path {
   border-radius: 50px 0px 0px 50px;
   position: fixed;
   display: flex;
-  right:0;
+  left: 1520px;
   bottom: 228px;
 }
 
@@ -233,6 +233,17 @@ svg.logo__svg path {
   width: 48px;
   height: 48px;
 }
+
+.gelatine:hover {
+  animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
 
 /* Call Button END */
 
